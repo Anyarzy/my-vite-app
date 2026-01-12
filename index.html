@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <title>Welcome to ZADU</title>
+  </head>
+  <body>
+    <!---header--->
+    <header>
+      <nav class="nav-row">
+        <img src="images/logo_h.png" alt="로고" class="nav_logo" />
+        <button class="nav_menu">
+          <img src="images/menu.svg" alt="햄버거메뉴" class="hamburger" />
+        </button>
+        <div class="pc-button">
+          <button class="btn-home">Home</button>
+          <button class="btn-about">About</button>
+          <button class="btn-support">Support</button>
+          <button class="btn-pc-download">Download</button>
+        </div>
+      </nav>
+      <h1>Lorem Ipsum is simply dummy text of the printing and</h1>
+      <h3>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown
+      </h3>
+      <button type="button" class="btn btn-download">Download</button>
+      <img src="images/box-cat.png" alt="박스캣" class="box-cat" />
+    </header>
+
+    <!---main-content--->
+    <div class="main-content">
+      <img src="images/img_4.png" alt="눕캣" class="lying-cat" />
+      <h1>
+        Lorem Ipsum is simply<br />dummy text of the printing<br />and dummy
+        text
+      </h1>
+      <h3>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </h3>
+      <h1 style="color: var(--accent-color); text-align: center">
+        dummy text of the printing and dummy
+      </h1>
+      <p style="text-align: center">
+        Lorem Ipsum is simply
+        <span
+          style="color: var(--accent-color); font-weight: 700; display: inline"
+          >dummy text </span
+        >of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, when an unknown
+      </p>
+    </div>
+    <!---Swiper --->
+    <div class="swiper">
+      <div class="swipe-container">
+        <div class="card">
+          <img src="images/img_1.png" alt="캣타워" class="cat-tower" />
+        </div>
+        <div class="card">
+          <img src="images/img_2.png" alt="냥통수" class="cat-curious" />
+        </div>
+        <div class="card">
+          <img src="images/img_3.png" alt="냥정면" class="grumpy-cat" />
+        </div>
+      </div>
+    </div>
+
+    <!---Swiper JS--->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        direction: "vertical",
+        loop: true,
+      });
+    </script>
+
+    <!---learn-more--->
+    <div class="learn-more">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.<br />
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown<br />
+        Ipsum is simply dummy text of the printing and typesetting industry.
+      </p>
+      <button type="button" class="btn btn-learn-more">Learn More</button>
+    </div>
+
+    <!---subscribe--->
+    <div class="subscribe-wrapper">
+      <form>
+        <h1>Subscribe to our Blog post</h1>
+        <h3>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+        </h3>
+        <input
+          type="text"
+          class="e-mail"
+          placeholder="Enter your e-mail address"
+          style="
+            background: url('images/mail.svg') no-repeat 5px center;
+            background-size: 27px;
+            padding-left: 40px;
+          "
+        />
+        <button type="button" class="btn btn-subscribe">Subscribe</button>
+      </form>
+    </div>
+
+    <!---footer-->
+    <footer>
+      <img src="images/logo_h.png" alt="로고" class="footer_logo" />
+      <div class="footer_menu_group">
+        <li>About</li>
+        <li>Blog</li>
+        <li>Support</li>
+        <li>Terms of Use</li>
+      </div>
+      <div class="social-icon">
+        <button type="button" class="btn btn-blog">
+          <a href="https://blog.naver.com"
+            ><img src="images/blog.svg" alt="블로그"
+          /></a>
+        </button>
+        <button type="button" class="btn btn-instagram">
+          <a href="https://instagram.com"
+            ><img src="images/instagram.svg" alt="인스타"
+          /></a>
+        </button>
+        <button type="button" class="btn btn-facebook">
+          <a href="https://facebook.com"
+            ><img src="images/facebook.svg" alt="페북"
+          /></a>
+        </button>
+        <button type="button" class="btn btn-youtube">
+          <a href="https://youtube.com"
+            ><img src="images/youtube.svg" alt="유튜브"
+          /></a>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
