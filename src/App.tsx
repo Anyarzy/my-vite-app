@@ -12,6 +12,8 @@ const City = React.lazy(() => import('./pages/concerts/City'));
 const Trending = React.lazy(() => import('./pages/concerts/Trending'));
 const UseCallback = React.lazy(() => import('./pages/UseCallback'));
 const UseMemoExample = React.lazy(() => import('./pages/UseMemoExample'));
+const Condition = React.lazy(() => import('./pages/Condition'));
+const UseEffectExample = React.lazy(() => import('./pages/UseEffectExample'));
 
 function App() {
   return (
