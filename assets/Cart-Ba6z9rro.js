@@ -1,0 +1,1 @@
+import{j as r}from"./index-IV4K4z-o.js";import{H as t,C as s,F as e}from"./Content-B3MgjFhU.js";function n(){return r.jsxs("div",{children:[r.jsx(t,{}),r.jsx(s,{children:"Cart Page"}),r.jsx(e,{})]})}export{n as default};

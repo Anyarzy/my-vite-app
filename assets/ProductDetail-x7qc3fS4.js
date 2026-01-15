@@ -1,0 +1,1 @@
+import{a,j as s}from"./index-IV4K4z-o.js";import{H as e,C as o,F as i}from"./Content-B3MgjFhU.js";function n(){const[r]=a(),t=r.get("id");return s.jsxs("div",{children:[s.jsx(e,{}),s.jsxs(o,{children:["Product Detail Page",s.jsxs("p",{children:["Product ID: ",t]})]}),s.jsx(i,{})]})}export{n as default};
