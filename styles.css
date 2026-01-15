@@ -21,19 +21,18 @@
 }
 
 @font-face {
-  font-family: "NotoSansLao";
+  font-family: 'NotoSansLao';
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
   src: url(https://cdn.jsdelivr.net/fontsource/fonts/noto-sans-lao:vf@latest/latin-wght-normal.woff2)
-    format("woff2-variations");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
-    U+2212, U+2215, U+FEFF, U+FFFD;
+    format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 body {
-  font-family: "NotoSansLao";
+  font-family: 'NotoSansLao';
   margin: 0;
 }
 
@@ -239,14 +238,14 @@ p {
 }
 
 .subscribe-wrapper::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   width: 100vw;
   height: 240px;
-  background: url("images/up-cat.png") no-repeat;
+  background: url('images/up-cat.png') no-repeat;
   background-size: cover;
   background-position: center;
   opacity: 0.6;
@@ -469,14 +468,14 @@ li {
     min-width: 300px;
   }
 
-  .main-content h1[style*="accent-color"] {
+  .main-content h1[style*='accent-color'] {
     width: 100%;
     text-align: center;
     margin-top: 60px;
     font-size: 3rem;
   }
 
-  .main-content p[style*="center"] {
+  .main-content p[style*='center'] {
     width: 100%;
     text-align: center;
     max-width: 800px;
